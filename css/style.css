@@ -36,6 +36,18 @@
     text-decoration: none;
 }
 
+.link-2 {
+    display: flex;
+    gap: 10px;
+    
+}
+
+.link-2  a {
+    color: white;
+    font-weight: normal;
+    text-decoration: none;
+}
+
 a:hover {
     color: wheat;
 }
