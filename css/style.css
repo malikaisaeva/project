@@ -6,3 +6,167 @@
     font-family: 'Open Sans', sans-serif;
     font-family: 'Playfair Display', serif;
 }
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+    
+}
+
+
+.hdr {
+    background: black;
+    
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+}
+
+.link  {
+    display: flex;
+    gap: 10px;
+    
+}
+
+.link a {
+    color: white;
+    font-weight: normal;
+    text-decoration: none;
+}
+
+a:hover {
+    color: wheat;
+}
+
+a:active {
+    color: cornsilk;
+}
+
+.block {
+    display: flex;
+    margin-top: 80px;
+    gap: 100px;
+}
+
+.text-1 h3 {
+    color: white;
+    font-weight: normal;
+    font-family: 'Cormorant Upright', serif;
+}
+
+.text-1 h1 {
+    color: #DCCA87;
+    font-weight: normal;
+    font-family: 'Cormorant Upright', serif;
+    font-size: 50px;
+    font-weight: 900;
+}
+
+.link-1 {
+    display: flex;
+    flex-direction: column;
+    gap: 74px;
+}
+
+
+.link-1 a {
+    display: inline-flex;
+    transform: rotate(-90deg);
+    text-decoration: none;
+    color: azure;
+}
+
+.link-1 a:hover {
+    color: #DCCA87;
+}
+
+.text-1 {
+    margin-left: 80px;
+    margin-top: 50px;
+    
+}
+
+.text-1 h5 {
+    color: white;
+    font-weight: normal;
+    margin-top: 10px;
+    font-family: 'Open Sans';
+}
+
+.text-1 button {
+    margin-top: 30px;
+    padding: 10px;
+    background: #DCCA87;
+    font-family: 'Cormorant Upright';
+    font-weight: 700;
+}
+
+button:hover {
+    background: chocolate;
+    cursor: pointer;
+}
+
+button:active {
+    background: coral;
+}
+
+.box-1 {
+    width: 200px;
+    height: 200px;
+    background-color: #DCCA87;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    transition: .4s ease;
+}
+
+
+.box {
+    width: 200px;
+    height: 200px;
+    background-color: #DCCA87;
+    position: absolute;
+    bottom: 10px;
+    left: 0px;
+    transition: .4s ease;
+}
+.image {
+    position: relative;
+    width: 480px;
+    height: 510px;
+}
+.image img {
+    position: absolute;
+}
+
+.image:hover .box{
+    bottom: -10px;
+    left: -20px;
+}
+.image:hover .box-1{
+    top: -20px;
+    right: -20px;
+}
+
+.text-3 {
+    align-items: center;
+    text-align: center;
+    margin-left: -20px;
+    margin-top: 20px;
+}
+
+
+.stolba  {
+    margin-left: 40px;
+    margin-bottom: -50px;
+    align-items: center;
+
+}
+
+.stolba h3 {
+    color: #DCCA87;
+    margin-left: -30px;
+    font-family: 'Cormorant Upright';
+}
