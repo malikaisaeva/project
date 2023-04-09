@@ -553,7 +553,7 @@ a:active {
 
 .container-7 {
     background: #040404;
-    height: 1000px;
+    height: 1100px;
     padding-top: 50px;
 }
 
@@ -619,4 +619,21 @@ a:active {
     display: flex;
     justify-content: center;
     gap: 35px;
+}
+
+
+.container-8 {
+    background-image: url(../img/Mask\ Group.png);
+    height: 660px;
+}
+
+.st img {
+    padding-top: 50px;
+    margin-left: 160px;
+}
+
+.wq {
+    justify-content: center;
+    text-align: center;
+    margin-top: 150px;
 }
