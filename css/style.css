@@ -282,3 +282,78 @@ button:active {
     justify-content: flex-start;
     align-items: flex-start;
 }
+
+.container-3 {
+    background: #040404;
+}
+
+.sticker {
+    margin-left: 530px;
+    
+}
+
+.sticker img {
+    margin-left: 750px;
+    margin-top: -60px;
+}
+
+
+.str {
+    border: 2px solid  #DCCA87;
+    width: 800px;
+    height: 280px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 350px;
+    margin-top: 100px;
+}
+
+.str h3 {
+    color: #ffff;
+    font-family: 'Cormorant Upright';
+    text-align: center;
+    margin-top: 30px;
+}
+
+.str img {
+    margin-left: 385px;
+
+}
+
+.str h1 {
+    color: #DCCA87;
+    font-family: 'Cormorant Upright';
+    text-align: center;
+    font-size: 35px;
+    margin-top: 10px;
+}
+
+.inp {
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    gap: 30px;
+    margin-top: 20px;
+}
+
+select {
+    width: 220px;
+    height: 35px;
+    background: none;
+    color: #F5EFDB;
+    font-size: normal;
+    font-family: 'Cormorant Upright';
+    border: 1px solid #F5EFDB;
+}
+
+.button-2 {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.button-2 button {
+    padding: 7px;
+    width: 100px;
+    font-family: 'Cormorant Upright';
+    font-weight: 800;
+}
