@@ -29,10 +29,32 @@
 
 }
 
+@media (max-width:1440px) {
+    .box-2 {
+        margin-left: 200px;
+
+    }
+
+}
+
 @media (max-width:1400px) {
     .block {
         gap: 100px;
     }
+
+    .box-2 {
+        margin-left: 150px;
+    }
+
+    .box-2 h1 {
+        margin-left: 220px;
+    }
+
+    .box-2 img {
+        margin-right: -390px;
+    }
+
+
 }
 
 @media (max-width:1350px) {
@@ -41,21 +63,56 @@
     }
 }
 
+@media (max-width:1300px) {
+    .box-2 {
+        margin-left: 100px;
+    }
+
+}
+
 @media (max-width:1260px) {
     .block {
         gap: 40px;
     }
 }
 
+@media (max-width:1200px) {
+    .box-2 {
+        margin-left: 50px;
+    }
+
+}
+
 @media (max-width:1170px) {
     .block {
         gap: 20px;
+    }
+
+    .box-2 {
+        margin-left: 20px;
+    }
+
+    .box,
+    .box-1 {
+        display: none;
     }
 }
 
 @media (max-width:1100px) {
     .block {
         gap: 0px;
+    }
+
+    .box-2 {
+        margin-left: 10px;
+    }
+
+    .box-2 h1 {
+        margin-left: 0px;
+    }
+
+    .list-2 {
+        gap: 10px;
     }
 }
 
@@ -69,194 +126,372 @@
         width: 420px;
         height: 400px;
     }
+
     .box,
     .box-1 {
         display: none;
 
     }
+
+    box-2 {
+        margin-left: 0px;
+    }
+
+    .box-3 {
+        display: none;
+    }
+
     .stolba {
         display: none;
     }
+
     .block {
         gap: 20px;
     }
+
     .text-3 {
         margin-top: 0px;
     }
+
+    .image-2 {
+        padding: 0 20px;
+    }
+
+    .list-2 {
+        gap: 40px;
+    }
+
+    .box-2 {
+        margin-left: 200px;
+    }
 }
+
 @media (max-width:930px) {
     .block {
         gap: 5px;
     }
+
     .image {
         width: 480px;
         height: 460px;
     }
 
 }
+
 @media (max-width:930px) {
     .text-1 {
         margin-left: 10px;
-        margin-top: 0px; 
+        margin-top: 0px;
     }
 }
+
+@media (max-width:900px) {
+    .box-2 {
+        margin-left: 170px;
+    }
+
+}
+
 @media (max-width:820px) {
     .text-1 {
         margin-left: -10px;
         margin-top: 0px;
     }
+
     .block {
         margin-top: 60px;
     }
 
 }
+
 @media (max-width:800px) {
-    .link, .link-2 {
+
+    .link,
+    .link-2 {
         display: flex;
         gap: 5px;
     }
-    .link a,  .link-2 a {
+
+    .link a,
+    .link-2 a {
         font-size: 13px;
     }
+
     .picture img {
         width: 90px;
     }
+
     .text-1 h1 {
         font-size: 40px;
     }
+
     .text-1 h5 {
         width: 270px;
     }
+
     .image img {
         width: 380px;
         height: 360px;
     }
 }
+
+@media (max-width:768px) {
+
+    .box-2 h1 {
+        margin-left: 212px;
+    }
+
+    .box-2 {
+        margin-left: 76px;
+    }
+}
+
 @media (max-width:720px) {
     .link-1 {
-        display: none; 
+        display: none;
     }
+
     .text-1 {
         margin-left: 0px;
-        
+
     }
+
     .block {
         padding: 20px;
     }
+
     .image {
         width: 480px;
         height: 400px;
     }
+
     .image img {
         width: 350px;
         height: 360px;
     }
 
 }
+
+@media (max-width:680px) {
+    .box-2 {
+        margin-left: 50px;
+    }
+
+}
+
 @media (max-width:650px) {
     .image {
         height: 330px;
     }
+
     .image img {
         width: 300px;
         height: 300px;
     }
+
     .block {
         margin-top: 25px;
     }
+
+    .box-2 {
+        margin-left: 30px;
+    }
 }
+
 @media (max-width:600px) {
     .link-2 {
         display: none;
     }
+
     .button-1 {
         display: flex;
     }
+
     .block {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
     }
+
     .image {
-        width: 330px;  
+        width: 330px;
     }
+
     .image img {
         width: 350px;
         height: 350px;
     }
+
     .text-1 h1 {
         font-size: 80px;
     }
+
     .text-1 h3 {
         font-size: 30px;
     }
+
     .text-1 h5 {
         width: 350px;
     }
+
     .text-1 button {
         margin: 20px 140px;
     }
+
     .text-3 {
         margin-top: 10px;
     }
+
+    .box-2 h1 {
+        margin-left: 165px;
+    }
+
+    .box-2 img {
+        margin-right: -340px;
+    }
+
+    .box-2 button {
+        margin-left: 290px;
+    }
+
+    .list-2 {
+        gap: 0px;
+    }
+}
+
+@media (max-width:540px) {
+    .box-2 h1 {
+        margin-left: 140px;
+    }
+
+    .box-2 img {
+        margin-right: -310px;
+    }
+
+    .box-2 button {
+        margin-left: 251px;
+    }
+
+    .box-2 {
+        margin-left: 10px;
+    }
+}
+
+@media (max-width:494px) { 
+    .box-2 h1 {
+        margin-left: 25px;
+    }
+    .box-2 img {
+        display: none;
+    }
+    .box-2 button {
+        margin-left: 20px;
+    }
+    .image-2 img {
+        width: 70px;
+        height: 500px;
+    }
 }
 @media (max-width:426px) {
-    
+
     .image {
         width: 350px;
     }
+
     .image img {
         width: 100%;
         height: 100%;
     }
+
     .header {
         padding-top: 10px;
     }
+    .list-2 {
+        background: none;
+    }
 }
+
 @media (max-width:415px) {
     .text-1 button {
         margin: 18px 130px;
     }
+
     .text-1 h1 {
         font-size: 60px;
     }
+
     .text-1 h5 {
         width: 341px;
     }
+
     .block {
         text-align: center;
     }
+
     .image img {
         margin-left: -175px;
     }
+
     .text-1 button {
         margin: 18px 101px;
     }
 }
+
 @media (max-width:376px) {
 
     .link {
         display: none;
     }
+
     .image img {
         width: 80%;
         height: 80%;
         margin-left: -137px;
     }
-    
+    .buttons {
+        display: flex;
+        height: 3px;
+        width: 3px;
+        background-color: white;
+        margin: 0 3px;
+    }
+    .text-1 img {
+        display: none;
+    }
+    .text-3 {
+        margin-left: 0px;
+    }
+
 }
-
-
 
 @media (max-width:360px) {
     .image {
-        width: 320px;
+        width: 350px;
     }
+
     .text-1 h5 {
         width: 300px;
     }
+
     .image img {
         margin-left: -129 px;
+    }
+    .box-2 h1 {
+        margin-left: 10px;
+    }
+}
+@media (max-width:320px) {
+    .text-1 h5 {
+        width: 300px;
+    }
+    .image {
+        width: 320px;
+    }
+    .image img {
+        margin-left: -128px;
+    }
+    .list-2 {
+        padding-top: 0px;
     }
 }

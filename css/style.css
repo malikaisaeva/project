@@ -10,13 +10,13 @@
 .container {
     width: 100%;
     margin: 0 auto;
-    
+
 }
 
 
 .hdr {
     background: black;
-    
+
 }
 
 .header {
@@ -24,10 +24,10 @@
     justify-content: space-around;
 }
 
-.link  {
+.link {
     display: flex;
     gap: 10px;
-    
+
 }
 
 .link a {
@@ -39,10 +39,10 @@
 .link-2 {
     display: flex;
     gap: 10px;
-    
+
 }
 
-.link-2  a {
+.link-2 a {
     color: white;
     font-weight: normal;
     text-decoration: none;
@@ -97,7 +97,7 @@ a:active {
 .text-1 {
     margin-left: 80px;
     margin-top: 50px;
-    
+
 }
 
 .text-1 h5 {
@@ -144,20 +144,23 @@ button:active {
     left: 0px;
     transition: .4s ease;
 }
+
 .image {
     position: relative;
     width: 480px;
     height: 510px;
 }
+
 .image img {
     position: absolute;
 }
 
-.image:hover .box{
+.image:hover .box {
     bottom: -10px;
     left: -20px;
 }
-.image:hover .box-1{
+
+.image:hover .box-1 {
     top: -20px;
     right: -20px;
 }
@@ -170,7 +173,7 @@ button:active {
 }
 
 
-.stolba  {
+.stolba {
     margin-left: 40px;
     margin-bottom: -50px;
     align-items: center;
@@ -192,15 +195,17 @@ button:active {
 .list-2 {
     display: flex;
     padding-top: 30px;
-    background-image: url(../img/G.png);
+    background: url(../img/G.png) no-repeat center;
     flex-wrap: nowrap;
     gap: 65px;
 }
 
 .box-2 {
     justify-content: center;
-    margin-left: 200px;
+    margin-left: 150px;
     text-align: center;
+    align-items: center;
+    
 }
 
 .box-2 h1 {
@@ -236,8 +241,8 @@ button:active {
 }
 
 .box-2 button:hover {
-        background: chocolate;
-        cursor: pointer;
+    background: chocolate;
+    cursor: pointer;
 }
 
 .box-2 button:active {
@@ -249,7 +254,7 @@ button:active {
     font-family: 'Cormorant Upright';
     text-transform: capitalize;
     font-size: 60px;
-    
+
 }
 
 .box-3 p {
@@ -270,8 +275,8 @@ button:active {
 }
 
 .box-3 button:hover {
-        background: chocolate;
-        cursor: pointer;
+    background: chocolate;
+    cursor: pointer;
 }
 
 .box-3 button:active {
