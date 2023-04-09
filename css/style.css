@@ -357,3 +357,10 @@ select {
     font-family: 'Cormorant Upright';
     font-weight: 800;
 }
+
+option {
+    color: #F5EFDB;
+    background: black;
+    font-family: 'Cormorant Upright';
+    
+}
