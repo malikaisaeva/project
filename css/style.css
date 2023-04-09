@@ -285,6 +285,7 @@ button:active {
 
 .container-3 {
     background: #040404;
+    height: 600px;
 }
 
 .sticker {
@@ -363,4 +364,36 @@ option {
     background: black;
     font-family: 'Cormorant Upright';
     
+}
+
+.container-4 {
+    background-image: url(../img/Menu.png);
+    padding-top: 120px;
+    height: 600px;
+}
+
+.stolba-3 {
+    padding-left: 50px;
+    margin-top: -150px;
+}
+
+.block-2 {
+    padding-top: 60px;
+}
+
+.block-2 a {
+    display: block;
+    text-decoration: none;
+    color: #F5EFDB;
+    text-align: center;
+    font-size: 45px;
+    font-family: 'Cormorant Upright';
+}
+
+a:hover {
+    color: #DCCA87;
+}
+
+a:active {
+    color: #F5EFDB;
 }
