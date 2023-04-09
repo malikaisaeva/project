@@ -505,6 +505,7 @@ a:active {
 .box-5 h4 {
     font-weight: normal;
     font-family: 'Cormorant Upright';
+    margin-left: 5px;
 }
 
 .box-5 h2 {
@@ -512,6 +513,7 @@ a:active {
     font-weight: normal;
     font-size: 45px;
     color: #DCCA87;
+    margin-left: 5px;
 }
 
 .chort-2 {
@@ -546,5 +548,75 @@ a:active {
 
 .text-4 img {
     margin-top: 10px;
-    margin-left: 15px;
+    margin-left: 10px;
+}
+
+.container-7 {
+    background: #040404;
+    height: 1000px;
+    padding-top: 50px;
+}
+
+.fk img {
+    margin-left: 1200px;
+}
+
+
+.ns {
+    text-align: center;
+    color: white;
+    margin-top: 150px;
+    font-family: 'Cormorant Upright';
+}
+
+
+
+.ns h3 {
+    font-family: 'Cormorant Upright';
+    font-weight: normal;
+}
+
+.ns h1 {
+    color: #DCCA87;
+    font-family: 'Cormorant Upright';
+    font-size: 35px;
+}
+
+.item {
+    display: flex;
+    gap: 20px;
+    
+    margin-top: 50px;
+}
+
+.px {
+    color: #F5EFDB;
+}
+
+.px p {
+    font-family: 'Open Sans';
+    font-style: italic;
+}
+
+.px h2 {
+    font-family: 'Cormorant Upright';
+    font-style: normal;
+    color: #DCCA87;
+}
+
+.px h4 {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: normal;
+}
+
+.mn {
+    margin-top: -20px;
+    margin-left: 155px;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    gap: 35px;
 }
