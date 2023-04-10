@@ -61,6 +61,11 @@
     .block {
         gap: 70px;
     }
+    .sticker img {
+        margin-left: 630px;
+        margin-top: 40px;
+    }
+    
 }
 
 @media (max-width:1300px) {
